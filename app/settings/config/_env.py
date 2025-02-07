@@ -14,7 +14,7 @@ class EnvSettingsFile(BaseSettings):
     LINKS_JSON_PATH: str = "links.json"
 
     @property
-    def services(self) -> Dict[str, str]:
+    def links(self) -> Dict[str, str]:
         path = Path(self.LINKS_JSON_PATH)
 
         if not path.exists():
