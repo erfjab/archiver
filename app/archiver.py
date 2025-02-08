@@ -16,7 +16,7 @@ async def send_files(bot: Bot, chat_id: int):
     for name, url in env.links.items():
         try:
             file = URLInputFile(url, filename=f"{name}.zip", timeout=15)
-            await bot.send_document(chat_id=chat_id, document=file)
+            await bot.send_document(chat_id=chat_id, document=file, disable_notification=True)
             success += 1
             await asyncio.sleep(3)
         except Exception as e:
