@@ -33,5 +33,6 @@
     "ircf-endpoint" : "https://github.com/ircfspace/endpoint/archive/refs/heads/main.zip",
     "ircf-cf2dns" : "https://github.com/ircfspace/cf2dns/archive/refs/heads/master.zip",
     "ircf-warpsub" : "https://github.com/ircfspace/warpsub/archive/refs/heads/main.zip",
-    "bashsiz-cfscanner" : "https://github.com/MortezaBashsiz/CFScanner/archive/refs/heads/main.zip"
+    "bashsiz-cfscanner" : "https://github.com/MortezaBashsiz/CFScanner/archive/refs/heads/main.zip",
+    "Libertea-panel" : "https://github.com/VZiChoushaDui/Libertea/archive/refs/heads/master.zip"
 }
