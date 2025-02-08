@@ -24,5 +24,13 @@
     "radkesvat-faketlstunnel" : "https://github.com/radkesvat/FakeTlsTunnel/archive/refs/heads/master.zip",
     "opiran-VPSOptimizer" : "https://github.com/opiran-club/VPS-Optimizer/archive/refs/heads/main.zip",
     "opiran-pftun" : "https://github.com/opiran-club/pf-tun/archive/refs/heads/main.zip",
-    "opiran-blockiranip" : "https://github.com/opiran-club/block-iran-ip/archive/refs/heads/main.zip"
+    "opiran-blockiranip" : "https://github.com/opiran-club/block-iran-ip/archive/refs/heads/main.zip",
+    "ircf-warpkey" : "https://github.com/ircfspace/warpkey/archive/refs/heads/main.zip",
+    "ircf-fragment" : "https://github.com/ircfspace/fragment/archive/refs/heads/main.zip",
+    "ircf-tconfig" : "https://github.com/ircfspace/tconfig/archive/refs/heads/main.zip",
+    "ircf-cfipranges" : "https://github.com/ircfspace/cf-ip-ranges/archive/refs/heads/main.zip",
+    "ircf-location" : "https://github.com/ircfspace/location/archive/refs/heads/main.zip",
+    "ircf-endpoint" : "https://github.com/ircfspace/endpoint/archive/refs/heads/main.zip",
+    "ircf-cf2dns" : "https://github.com/ircfspace/cf2dns/archive/refs/heads/master.zip",
+    "ircf-warpsub" : "https://github.com/ircfspace/warpsub/archive/refs/heads/main.zip"
 }
