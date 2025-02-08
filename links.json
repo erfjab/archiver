@@ -8,7 +8,7 @@
     "alireza-sui" : "https://github.com/alireza0/s-ui/archive/refs/heads/main.zip",
     "hiddify-panel" : "https://github.com/hiddify/Hiddify-Manager/archive/refs/heads/main.zip",
     "azumi-6to4gre" : "https://github.com/Azumi67/6TO4-GRE-IPIP-SIT/archive/refs/heads/main.zip",
-    "azumi-wireguard-panel" : "https://github.com/Azumi67/Wireguard-panel/archive/refs/heads/main.zip",
+    "azumi-wireguardpanel" : "https://github.com/Azumi67/Wireguard-panel/archive/refs/heads/main.zip",
     "azumi-proxyforwarder" : "https://github.com/Azumi67/proxyforwarder/archive/refs/heads/main.zip",
     "musixal-backhaul" : "https://github.com/Musixal/Backhaul/archive/refs/heads/main.zip",
     "musixal-easymesh" : "https://github.com/Musixal/Easy-Mesh/archive/refs/heads/main.zip",
@@ -20,5 +20,8 @@
     "kiya6955-ipblocker" : "https://github.com/Kiya6955/IR-ISP-Blocker/archive/refs/heads/main.zip",
     "radkesvat-reversetlstunnel" : "https://github.com/radkesvat/ReverseTlsTunnel/archive/refs/heads/master.zip",
     "radkesvat-waterwall" : "https://github.com/radkesvat/WaterWall/archive/refs/heads/main.zip",
-    "radkesvat-faketlstunnel" : "https://github.com/radkesvat/FakeTlsTunnel/archive/refs/heads/master.zip"
+    "radkesvat-faketlstunnel" : "https://github.com/radkesvat/FakeTlsTunnel/archive/refs/heads/master.zip",
+    "opiran-VPSOptimizer" : "https://github.com/opiran-club/VPS-Optimizer/archive/refs/heads/main.zip",
+    "opiran-pftun" : "https://github.com/opiran-club/pf-tun/archive/refs/heads/main.zip",
+    "opiran-blockiranip" : "https://github.com/opiran-club/block-iran-ip/archive/refs/heads/main.zip"
 }
