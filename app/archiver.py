@@ -1,11 +1,11 @@
 import asyncio
 from aiogram import Bot
-from aiogram.types import URLInputFile, InputMediaDocument
+from aiogram.types import URLInputFile
 from app.settings import env, logger
 
 
 async def send_files(bot: Bot, chat_id: int):
-    """Send multiple files as media groups to a chat, handling Telegram's 10-file limit."""
+    """Send files one by one with a delay to avoid Telegram's rate limit."""
     total_files = len(env.links)
     success, errors = 0, 0
 
@@ -13,34 +13,15 @@ async def send_files(bot: Bot, chat_id: int):
         chat_id, text=f"🚀 Starting file transfer\n📁 Total files: {total_files}"
     )
 
-    media_groups = []
-    media_batch = []
-
     for name, url in env.links.items():
         try:
-            media_batch.append(
-                InputMediaDocument(
-                    media=URLInputFile(url, filename=f"{name}.zip", timeout=15)
-                )
-            )
-            if len(media_batch) == 10:
-                media_groups.append(media_batch)
-                media_batch = []
+            file = URLInputFile(url, filename=f"{name}.zip", timeout=15)
+            await bot.send_document(chat_id, media=file)
+            success += 1
+            await asyncio.sleep(3)
         except Exception as e:
-            logger.error(f"❌ Failed to prepare {name}: {e}")
+            logger.error(f"❌ Failed to send {name}: {e}")
             errors += 1
-
-    if media_batch:
-        media_groups.append(media_batch)
-
-    for group in media_groups:
-        try:
-            await bot.send_media_group(chat_id, group)
-            success += len(group)
-            await asyncio.sleep(2)
-        except Exception as e:
-            logger.error(f"❌ Failed to send media group: {e}")
-            errors += len(group)
 
     await bot.send_message(
         chat_id, text=f"📊 Transfer Report:\n✅ Success: {success}\n❌ Failed: {errors}"
