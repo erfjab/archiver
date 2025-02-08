@@ -32,5 +32,6 @@
     "ircf-location" : "https://github.com/ircfspace/location/archive/refs/heads/main.zip",
     "ircf-endpoint" : "https://github.com/ircfspace/endpoint/archive/refs/heads/main.zip",
     "ircf-cf2dns" : "https://github.com/ircfspace/cf2dns/archive/refs/heads/master.zip",
-    "ircf-warpsub" : "https://github.com/ircfspace/warpsub/archive/refs/heads/main.zip"
+    "ircf-warpsub" : "https://github.com/ircfspace/warpsub/archive/refs/heads/main.zip",
+    "bashsiz-cfscanner" : "https://github.com/MortezaBashsiz/CFScanner/archive/refs/heads/main.zip"
 }
