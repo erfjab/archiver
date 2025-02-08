@@ -6,5 +6,8 @@
     "3x-ui" : "https://github.com/MHSanaei/3x-ui/archive/refs/heads/main.zip",
     "alireza" : "https://github.com/alireza0/x-ui/archive/refs/heads/main.zip",
     "s-ui" : "https://github.com/alireza0/s-ui/archive/refs/heads/main.zip",
-    "hiddify" : "https://github.com/hiddify/Hiddify-Manager/archive/refs/heads/main.zip"
+    "hiddify" : "https://github.com/hiddify/Hiddify-Manager/archive/refs/heads/main.zip",
+    "azumi-6to4gre" : "https://github.com/Azumi67/6TO4-GRE-IPIP-SIT/archive/refs/heads/main.zip",
+    "azumi-wireguard-panel" : "https://github.com/Azumi67/Wireguard-panel/archive/refs/heads/main.zip",
+    "azumi-proxyforwarder" : "https://github.com/Azumi67/proxyforwarder/archive/refs/heads/main.zip"
 }
